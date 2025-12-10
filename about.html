@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us — Aurora</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">AURORA</a>
+    <button class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="about.html">About us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="icon-btn">🔍</button>
+      <a href="#" class="icon-btn">Sign in</a>
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+  </nav>
+
+  <section class="about-hero">
+    <div class="about-content">
+      <div class="about-text">
+        <h1 class="about-title">ABOUT US</h1>
+        <p class="about-description">In 1991, Ruby Bower and Phoebie Ren launched Aurora as an alternative style and culture magazine. Today, Aurora magazine continues to champion radical fashion and youth culture, defining the times with a vanguard of next generation writers, stylists and image makers.</p>
+        <p class="about-description">Aurora's online platform Aurora.com.it covers music, fashion, film, art, and literature. Aurora is the most influential independent fashion and culture title in the world</p>
+        <button class="read-more-btn">READ MORE</button>
+      </div>
+      <div class="about-image">
+        <img src="41cdcbd8d1f50b0de7b8aa07d132c58d689b1094 (1).png" alt="Aurora fashion model">
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing-section">
+    <h2 class="pricing-title">CHOOSE THE RIGHT PLAN<br>JUST FOR YOU.</h2>
+    
+    <div class="pricing-grid">
+      <div class="pricing-card basic">
+        <h3>BASIC</h3>
+        <p class="price">$25</p>
+        <p class="period">Monthly<br>Cancel anytime</p>
+        <ul class="features">
+          <li>✓ Welcome gift</li>
+          <li>✓ A small selection of items magazine</li>
+          <li>✓ Access to the Aurora digital edition</li>
+          <li>✓ Twice Year VIPS Events</li>
+          <li>✓ The print edition, delivered to your home</li>
+        </ul>
+        <button class="join-btn">JOIN NOW</button>
+      </div>
+
+      <div class="pricing-card aurora-club featured">
+        <h3>AURORA CLUB</h3>
+        <p class="price">$50</p>
+        <p class="period">Monthly<br>Cancel anytime</p>
+        <ul class="features">
+          <li>✓ The print edition, delivered to your home</li>
+          <li>✓ A limited edition of Aurora magazines</li>
+          <li>✓ Exclusive Aurora content for members</li>
+          <li>✓ Access to our member-only shop</li>
+          <li>✓ Free tickets to featured shows</li>
+          <li>✓ Access to our members-only events</li>
+        </ul>
+        <button class="join-btn aurora-btn">JOIN NOW</button>
+      </div>
+
+      <div class="pricing-card digital">
+        <h3>DIGITAL ONLY</h3>
+        <p class="price">$10</p>
+        <p class="period">Monthly<br>Cancel anytime</p>
+        <ul class="features">
+          <li>✓ The print edition, delivered to your home</li>
+          <li>✓ A small selection of items magazine</li>
+          <li>✓ A small print subscription (3 months)</li>
+          <li>✓ A carefully curated print of articles</li>
+        </ul>
+        <button class="join-btn">JOIN NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <h3 class="footer-logo">AURORA</h3>
+          <p class="footer-description">The latest fashion news, beauty coverage, celebrity style, fashion week updates and culture reviews on Aurora.com.</p>
+          <div class="footer-social">
+            <a href="#">𝕏</a>
+            <a href="#">📷</a>
+            <a href="#">f</a>
+            <a href="#">▶</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4 class="footer-heading">Company</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-heading">See more stories</h4>
+            <ul>
+              <li><a href="#">Fashion</a></li>
+              <li><a href="#">Beauty</a></li>
+              <li><a href="#">Art</a></li>
+              <li><a href="#">Culture</a></li>
+              <li><a href="#">Runway</a></li>
+              <li><a href="#">Magazine</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4 class="footer-heading">Compliance</h4>
+            <ul>
+              <li><a href="#">Compliance & security</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Aurora. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
